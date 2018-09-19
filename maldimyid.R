@@ -31,7 +31,7 @@ option_list <- list(
                 ))
 
 someExampleDirectory <- "c:/myResources"
-myEpilogue = paste0("Example: %prog peptides='", file.path(someExampleDirectory, "peptides.xlsx"), "' hsilMembers='", file.path(someExampleDirectory, "hsilMembers.xlsx"), "' mzValues='865.391, 901.556, 987.573, 1032.598, 1163.612, 1325.742, 1554.72, 1905.95' output='results.xlsx'")
+myEpilogue = paste0("Example: %prog peptides='", file.path(someExampleDirectory, "peptides.xlsx"), "' hsilMembers='", file.path(someExampleDirectory, "hsilMembers.xlsx"), "' mzValues='865.391, 987.573, 1905.95' output='results.xlsx'")
   parser <- OptionParser(
     usage = paste("%prog peptides hsilMembers mzValues \n",
                   "This is Maldimyid. it calculates.....................................",
